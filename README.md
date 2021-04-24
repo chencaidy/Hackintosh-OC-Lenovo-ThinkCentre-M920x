@@ -5,7 +5,7 @@
 * CPU：Intel Core i5-8600T (Coffee Lake)
 * iGPU：Intel UHD Graphics 630
 * dGPU：AMD Radeon RX460 4GB
-* 网卡：Dell DW1820A
+* 网卡：Apple BCM94360CS2
 * 内存：16GB DDR4 2666MHz
 
 ## 特性
