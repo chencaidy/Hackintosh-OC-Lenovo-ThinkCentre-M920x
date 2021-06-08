@@ -1,6 +1,7 @@
 # Hackintosh-OC-Lenovo-ThinkCentre-M920x
 
 ## 平台配置
+
 * 准系统：Lenovo ThinkCentre M920x
 * CPU：Intel Core i5-8600T (Coffee Lake)
 * iGPU：Intel UHD Graphics 630
@@ -9,6 +10,7 @@
 * 内存：16GB DDR4 2666MHz
 
 ## 特性
+
 * 仿冒机型：Macmini8,1（SN已去除，需自行补充）
 * 系统版本：Big Sur 11.3.1
 * 核显正常，编解码加速正常，显卡FB：3E9B0007，VRAM：1536MB
@@ -24,28 +26,47 @@
 * EC（SuperIO）正常，支持风扇转速报告
 
 ## 已知问题
+
 * 无
 
 ## BIOS配置（版本：M1UKT65A）
+
 * 恢复出厂设置（推荐使用主板CMOS跳线进行完全复位）
 * 关闭VT-d
 * 关闭CFG Lock：0x721 0x0
 * 设置64M预分配显存：0xA44 0x2
 
 ## 更新日志
+
+### 2021-6-8
+
+* 更新OpenCore 0.7.0
+* 更新AppleALC 1.6.1
+* 更新NVMeFix 1.0.8
+* 更新VirtualSMC 1.2.4
+* 更新Whatevergreen 1.5.0
+* 打开看门狗
+
 ### 2021-5-7
+
 * 更新SMCSuperIO自编译版本（已合入官方主线，1.2.4发布后再替换官方版本）
 * 支持风扇和电压报告
+
 ### 2021-5-6
+
 * 更新OpenCore 0.6.9
 * 更新AppleALC 1.6.0
 * 更新IntelMausi 1.0.6
 * 更新Lilu 1.5.3
 * 更新NVMeFix 1.0.7
 * 更新VirtualSMC 1.2.3
+
 ### 2021-4-30
+
 * 去除无用的ACPI表
 * 关闭Verbose模式
+
 ### 2021-4-24
+
 * 更新OpenCore 0.6.8
 * 修复HDMI接口输出
