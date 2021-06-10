@@ -5,16 +5,16 @@
 * 准系统：Lenovo ThinkCentre M920x
 * CPU：Intel Core i5-8600T (Coffee Lake)
 * iGPU：Intel UHD Graphics 630
-* dGPU：AMD Radeon RX460 4GB
+* dGPU：AMD Radeon RX560 4GB
 * 网卡：Apple BCM94360CS2
 * 内存：16GB DDR4 2666MHz
 
 ## 特性
 
-* 仿冒机型：Macmini8,1（SN已去除，需自行补充）
-* 系统版本：Big Sur 11.3.1
-* 核显正常，编解码加速正常，显卡FB：3E9B0007，VRAM：1536MB
-* 独显输出正常，最高支持6屏输出（MiniDPx4 + DP + HDMI）
+* 仿冒机型：iMac19,1（SN已去除，需自行补充）
+* 系统版本：Big Sur 11.4
+* 核显编解码加速正常，无显示输出，显卡FB：3E920003，VRAM：1536MB
+* 独显输出正常，最高支持4屏输出（MiniDPx4）
 * 内置扬声器、前置耳机、麦克风输出正常，声卡ID：17
 * WiFi正常，免驱
 * 蓝牙正常，支持接力，支持随航
@@ -31,12 +31,17 @@
 
 ## BIOS配置（版本：M1UKT65A）
 
-* 恢复出厂设置（推荐使用主板CMOS跳线进行完全复位）
-* 关闭VT-d
+* 恢复出厂设置：`Exit`->`OS Optimized Defaults [Enabled]`->`Load Optimal Defaults`
+* 关闭VT-d：`Advanced`->`CPU Setup`->`VT-d [Disabled]`
+* 关闭安全启动：`Security`->`Secure Boot`->`Secure Boot [Disabled]`
 * 关闭CFG Lock：0x721 0x0
-* 设置64M预分配显存：0xA44 0x2
 
 ## 更新日志
+
+### 2021-6-11
+
+* 更换机型iMac19,1
+* 去除核显输出，变更为纯加速卡
 
 ### 2021-6-8
 
