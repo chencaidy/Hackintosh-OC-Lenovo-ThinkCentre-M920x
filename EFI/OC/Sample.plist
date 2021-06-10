@@ -210,24 +210,8 @@
 			</dict>
 			<key>PciRoot(0x0)/Pci(0x2,0x0)</key>
 			<dict>
-				<key>AAPL,GfxYTile</key>
-				<data>AQAAAA==</data>
 				<key>AAPL,ig-platform-id</key>
-				<data>BwCbPg==</data>
-				<key>device-id</key>
-				<data>mz4AAA==</data>
-				<key>enable-hdmi-dividers-fix</key>
-				<data>AQAAAA==</data>
-				<key>enable-hdmi20</key>
-				<data>AQAAAA==</data>
-				<key>framebuffer-con1-busid</key>
-				<data>AgAAAA==</data>
-				<key>framebuffer-con1-enable</key>
-				<data>AQAAAA==</data>
-				<key>framebuffer-con1-type</key>
-				<data>AAgAAA==</data>
-				<key>framebuffer-patch-enable</key>
-				<data>AQAAAA==</data>
+				<data>AwCSPg==</data>
 			</dict>
 		</dict>
 		<key>Delete</key>
@@ -956,7 +940,7 @@
 			<key>SystemMemoryStatus</key>
 			<string>Auto</string>
 			<key>SystemProductName</key>
-			<string>Macmini8,1</string>
+			<string>iMac19,1</string>
 			<key>SystemSerialNumber</key>
 			<string>W00000000001</string>
 			<key>SystemUUID</key>
