@@ -38,6 +38,16 @@
 
 ## 更新日志
 
+### 2021-8-15
+
+* 更新OpenCore 0.7.2
+* 更新AppleALC 1.6.3
+* 更新IntelMausi 1.0.7
+* 更新Lilu 1.5.5
+* 更新NVMeFix 1.0.9
+* 更新VirtualSMC 1.2.6
+* 更新WhateverGreen 1.5.2
+
 ### 2021-6-11
 
 * 更换机型iMac19,1
