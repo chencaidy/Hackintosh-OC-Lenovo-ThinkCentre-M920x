@@ -12,7 +12,7 @@
 ## 特性
 
 * 仿冒机型：iMac19,1（SN已去除，需自行补充）
-* 系统版本：Big Sur 11.4
+* 系统版本：Monterey 12.3.1
 * 核显编解码加速正常，无显示输出，显卡FB：3E920003，VRAM：1536MB
 * 独显输出正常，最高支持4屏输出（MiniDPx4）
 * 内置扬声器、前置耳机、麦克风输出正常，声卡ID：17
@@ -29,7 +29,7 @@
 
 * 无
 
-## BIOS配置（版本：M1UKT65A）
+## BIOS配置（版本：M1UKT69A）
 
 * 恢复出厂设置：`Exit`->`OS Optimized Defaults [Enabled]`->`Load Optimal Defaults`
 * 关闭VT-d：`Advanced`->`CPU Setup`->`VT-d [Disabled]`
@@ -37,6 +37,14 @@
 * 关闭CFG Lock：0x721 0x0
 
 ## 更新日志
+
+### 2022-05-03
+
+* 更新OpenCore 0.8.0
+* 更新AppleALC 1.7.1
+* 更新Lilu 1.6.0
+* 更新VirtualSMC 1.2.9
+* 更新WhateverGreen 1.5.8
 
 ### 2021-12-24
 
