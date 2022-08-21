@@ -11,8 +11,8 @@
 
 ## 特性
 
-* 仿冒机型：iMac19,1（SN已去除，需自行补充）
-* 系统版本：Monterey 12.3.1
+* 仿冒机型：Macmini8,1（SN已去除，需自行补充）
+* 系统版本：Monterey 12.5.1
 * 核显编解码加速正常，无显示输出，显卡FB：3E920003，VRAM：1536MB
 * 独显输出正常，最高支持4屏输出（MiniDPx4）
 * 内置扬声器、前置耳机、麦克风输出正常，声卡ID：17
@@ -29,7 +29,7 @@
 
 * 无
 
-## BIOS配置（版本：M1UKT69A）
+## BIOS配置（版本：M1UKT6BA）
 
 * 恢复出厂设置：`Exit`->`OS Optimized Defaults [Enabled]`->`Load Optimal Defaults`
 * 关闭VT-d：`Advanced`->`CPU Setup`->`VT-d [Disabled]`
@@ -37,6 +37,16 @@
 * 关闭CFG Lock：0x721 0x0
 
 ## 更新日志
+
+### 2022-08-19
+
+* 更新OpenCore 0.8.3
+* 更新AppleALC 1.7.4
+* 更新Lilu 1.6.2
+* 更新NVMeFix 1.1.0
+* 更新VirtualSMC 1.3.0
+* 更新WhateverGreen 1.6.1
+* 更换机型Macmini8,1
 
 ### 2022-05-03
 
