@@ -32,11 +32,16 @@
 ## BIOS配置（版本：M1UKT6BA）
 
 * 恢复出厂设置：`Exit`->`OS Optimized Defaults [Enabled]`->`Load Optimal Defaults`
-* 关闭VT-d：`Advanced`->`CPU Setup`->`VT-d [Disabled]`
 * 关闭安全启动：`Security`->`Secure Boot`->`Secure Boot [Disabled]`
-* 关闭CFG Lock：0x721 0x0
+* 关闭CFG Lock：setup_var 0x721 0x0
 
 ## 更新日志
+
+### 2022-11-25
+
+* 更新OpenCore 0.8.6
+* 更新AppleALC 1.7.6
+* 去除BIOS关闭VT-d的提示
 
 ### 2022-10-28
 
