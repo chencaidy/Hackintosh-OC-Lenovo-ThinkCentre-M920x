@@ -11,8 +11,8 @@
 
 ## 特性
 
-* 仿冒机型：Macmini8,1（SN已去除，需自行补充）
-* 系统版本：Ventura 13.0
+* 仿冒机型：iMac19,1（SN已去除，需自行补充）
+* 系统版本：Ventura 13.1
 * 核显编解码加速正常，无显示输出，显卡FB：3E920003，VRAM：1536MB
 * 独显输出正常，最高支持4屏输出（MiniDPx4）
 * 内置扬声器、前置耳机、麦克风输出正常，声卡ID：17
@@ -33,9 +33,15 @@
 
 * 恢复出厂设置：`Exit`->`OS Optimized Defaults [Enabled]`->`Load Optimal Defaults`
 * 关闭安全启动：`Security`->`Secure Boot`->`Secure Boot [Disabled]`
-* 关闭CFG Lock：setup_var 0x721 0x0
+* 关闭CFG Lock：`OpenCore`->`GrubShell`->`setup_var 0x721 0x0`->`reboot`
 
 ## 更新日志
+
+### 2022-01-17
+
+* 还原机型为iMac19,1，解决macOS 13.1核显解码失败
+* 修复USB补丁失效的问题
+* 增加GrubShell引导选项，用于解锁CFG Lock
 
 ### 2022-11-25
 
