@@ -12,7 +12,7 @@
 ## 特性
 
 * 仿冒机型：iMac19,1（SN已去除，需自行补充）
-* 系统版本：Ventura 13.2.1
+* 系统版本：Ventura 13.3.1
 * 核显编解码加速正常，无显示输出，显卡FB：3E920003，VRAM：1536MB
 * 独显输出正常，最高支持4屏输出（MiniDPx4）
 * 内置扬声器、前置耳机、麦克风输出正常，声卡ID：17
@@ -29,13 +29,21 @@
 
 * 无
 
-## BIOS配置（版本：M1UKT6BA）
+## BIOS配置（版本：M1UKT71A）
 
 * 恢复出厂设置：`Exit`->`OS Optimized Defaults [Enabled]`->`Load Optimal Defaults`
 * 关闭安全启动：`Security`->`Secure Boot`->`Secure Boot [Disabled]`
 * 关闭CFG Lock：`OpenCore`->`GrubShell`->`setup_var 0x721 0x0`->`reboot`
 
 ## 更新日志
+
+### 2023-04-27
+
+* 更新OpenCore 0.9.1
+* 更新AppleALC 1.8.1
+* 更新Lilu 1.6.4
+* 更新VirtualSMC 1.3.1
+* 更新HfsPlus驱动
 
 ### 2023-02-17
 
