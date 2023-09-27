@@ -12,7 +12,7 @@
 ## 特性
 
 * 仿冒机型：iMac19,1（SN已去除，需自行补充）
-* 系统版本：Ventura 13.3.1
+* 系统版本：Ventura 13.6
 * 核显编解码加速正常，无显示输出，显卡FB：3E920003，VRAM：1536MB
 * 独显输出正常，最高支持4屏输出（MiniDPx4）
 * 内置扬声器、前置耳机、麦克风输出正常，声卡ID：17
@@ -27,15 +27,32 @@
 
 ## 已知问题
 
-* 无
+* Sonoma 14.0 WiFi已失效
 
 ## BIOS配置（版本：M1UKT71A）
 
 * 恢复出厂设置：`Exit`->`OS Optimized Defaults [Enabled]`->`Load Optimal Defaults`
 * 关闭安全启动：`Security`->`Secure Boot`->`Secure Boot [Disabled]`
-* 关闭CFG Lock：`OpenCore`->`GrubShell`->`setup_var 0x721 0x0`->`reboot`
+* 关闭CFG Lock：`OpenCore`->空格键->`Unlock CFG`->输入`y`->重启
 
 ## 更新日志
+
+### 2023-10-08
+
+* 默认隐藏调试菜单，按下空格键显示
+* 简化CFG Lock的解锁方式
+* 增加Reset NVRAM调试选项
+* 增加UEFI Shell调试选项
+* 删除强制指定中文语言的NVRAM配置
+
+### 2023-09-27
+
+* 更新OpenCore 0.9.5
+* 更新AppleALC 1.8.5
+* 更新Lilu 1.6.7
+* 更新NVMeFix 1.1.1
+* 更新VirtualSMC 1.3.2
+* 更新WhateverGreen 1.6.6
 
 ### 2023-04-27
 
