@@ -22,7 +22,7 @@
 	<string>1.0</string>
 	<key>IOKitPersonalities</key>
 	<dict>
-		<key>Macmini8,1-XHC</key>
+		<key>iMac19,1-XHC</key>
 		<dict>
 			<key>CFBundleIdentifier</key>
 			<string>com.apple.driver.AppleUSBMergeNub</string>
@@ -41,11 +41,11 @@
 				<key>kUSBSleepPortCurrentLimit</key>
 				<integer>2100</integer>
 				<key>kUSBSleepPowerSupply</key>
-				<integer>3600</integer>
+				<integer>5100</integer>
 				<key>kUSBWakePortCurrentLimit</key>
 				<integer>2100</integer>
 				<key>kUSBWakePowerSupply</key>
-				<integer>5200</integer>
+				<integer>5100</integer>
 				<key>port-count</key>
 				<data>
 				FgAAAA==
@@ -198,7 +198,7 @@
 				</dict>
 			</dict>
 			<key>model</key>
-			<string>Macmini8,1</string>
+			<string>iMac19,1</string>
 		</dict>
 	</dict>
 	<key>OSBundleRequired</key>
