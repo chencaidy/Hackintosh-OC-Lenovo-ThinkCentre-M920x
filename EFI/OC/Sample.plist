@@ -496,7 +496,7 @@
 		<array>
 			<dict>
 				<key>Arch</key>
-				<string>Any</string>
+				<string>x86_64</string>
 				<key>Comment</key>
 				<string>Allow IOSkywalk Downgrade</string>
 				<key>Enabled</key>

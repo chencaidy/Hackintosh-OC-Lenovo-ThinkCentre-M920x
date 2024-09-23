@@ -12,7 +12,7 @@
 ## 特性
 
 * 仿冒机型：iMac19,1（SN已去除，需自行补充）
-* 系统版本：Sonoma 14.5
+* 系统版本：Sequoia 15.0
 * 核显编解码加速正常，无显示输出，显卡FB：3E920003，VRAM：1536MB
 * 独显输出正常，最高支持4屏输出（MiniDPx4）
 * 内置扬声器、前置耳机、麦克风输出正常，声卡ID：17
@@ -27,6 +27,7 @@
 
 ## 已知问题
 
+* iPhone镜像不可用
 * 每次系统更新后，都需要使用OCLP进行根目录修复，WiFi才能使用
 * 由于SIP关闭，导致系统增量更新失效，每次更新都会下载13GB左右的安装包
 
@@ -38,7 +39,7 @@
 
 ## OCLP使用说明
 
-Sonoma在每次更新后，WiFi图标都会变为灰色，需要用OCLP修复根目录
+每次系统更新后，WiFi图标都会变为灰色，需要用OCLP修复根目录
 
 * 下载最新OCLP：https://github.com/dortania/OpenCore-Legacy-Patcher/releases
 * 解压压缩包，将软件移动到访达的应用程序目录
@@ -46,6 +47,16 @@ Sonoma在每次更新后，WiFi图标都会变为灰色，需要用OCLP修复根
 * OCLP会请求root权限，输入密码后，等待进度完成并重启系统
 
 ## 更新日志
+
+### 2024-9-13
+
+* 更新OpenCore 1.0.1
+* 更新AMFIPass 1.4.1
+* 更新AppleALC 1.9.1
+* 更新Lilu 1.6.8
+* 更新VirtualSMC 1.3.3
+* 更新WhateverGreen 1.6.7
+* 更新IOSkywalkFamily 1.2.0
 
 ### 2024-06-20
 
